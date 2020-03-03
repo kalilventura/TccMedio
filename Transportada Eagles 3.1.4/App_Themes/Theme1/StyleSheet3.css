@@ -1,0 +1,17 @@
+﻿.TABELA
+{
+     width: 100%;
+     font-size:18px;
+     border: 1px solid #0099FF;
+}
+
+.semitabela
+{
+    border: 1px solid #0099FF;
+    
+}
+.semitabela2
+{
+    border:1px solid #0099FF;
+    text-align:left;
+}

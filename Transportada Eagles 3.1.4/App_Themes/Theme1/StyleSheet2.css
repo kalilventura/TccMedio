@@ -1,0 +1,72 @@
+﻿body {
+	margin:0px;
+	
+	font-family:"Trebuchet MS", Tahoma, Arial, Verdana;
+	font-size:12px;
+}
+
+#todo {
+	position: relative;
+	width: 1053px;
+	margin:0px auto;
+    top: 0px;
+    left: 6px;
+}
+
+#topo {
+	position: relative;
+	width: 1037px;
+	height: 226px;
+    top: 0px;
+    left: 4px;
+}
+
+#meio {
+	position: relative;
+	width: 1037px;
+	min-height: 400px;
+    top: 0px;
+    left: 4px;
+}
+
+#rodape {
+	width: 1049px;
+	height: 50px;
+}
+
+#esquerda {
+	float: left;
+	width: 150px;
+	min-height: 400px;
+}
+
+#miolo {
+	float: left;
+	width: 1032px;
+	min-height: 400px;
+}
+
+#direita {
+	float: right;
+	width: 150px;
+	min-height: 400px;
+}
+
+
+
+.secao_direita {
+	width: 140px;
+	height: 100px;
+	text-align: center;
+	margin: 4px 5px 4px 5px;
+}
+
+#rodape_direita {
+	float: left;
+	width: 1034px;
+	text-align: right;
+	margin: 5px 10px 0px 4px
+}
+
+#rodape_direita a{text-decoration: none;}
+#rodape_direita a:hover{text-decoration: underline;}

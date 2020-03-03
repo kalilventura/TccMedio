@@ -1,0 +1,106 @@
+﻿<%@ Master Language="VB" CodeFile="layout.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+  
+    
+    <style type="text/css">
+        #topo0
+        {
+            width: 1032px;
+            height: 190px;
+        }
+    </style>
+    <link href="App_Themes/Theme1/StyleSheet2.css" rel="stylesheet" type="text/css" />
+    <link rel="Shortcut Icon" href="ico.png" mce_href="ico.jpg" type="image/x-icon" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    
+           
+    <div id="todo">
+	<div id="topo">
+            
+               
+                <asp:Panel ID="Panel2" runat="server" Height="25px" HorizontalAlign="Right" style="margin-left: 0px; left: 593px; top: -1px; position: relative; width: 418px;">
+                    &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="false" >Login</asp:LinkButton>
+                    &nbsp;<asp:Label ID="Label5" runat="server" Text="/"></asp:Label>
+                    &nbsp;<asp:LinkButton ID="LinkButton3" runat="server">Cadastre-se</asp:LinkButton>
+                    &nbsp;&nbsp;
+                    <asp:Label ID="Label4" runat="server" Text="Bem-vindo,"></asp:Label>
+                    <asp:Label ID="Label3" runat="server"></asp:Label>
+                    &nbsp;<asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="false">Fazer Logoff</asp:LinkButton>
+                    &nbsp;<asp:LinkButton ID="LinkButton19" runat="server" CausesValidation="false">Configurações</asp:LinkButton>
+             <br />
+             <br />
+                </asp:Panel>
+                <div id="topo0" align="center">
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="131px" 
+                        ImageUrl="imagens/asd.png" PostBackUrl="~/Default.aspx" 
+                        style="margin-left: 0px; margin-top: 0px;" Width="250px" />
+                    <asp:LinkButton ID="LinkButton6" runat="server" Font-Names="Magneto" 
+                        Font-Overline="False" Font-Size="XX-Large" ForeColor="#6699FF" 
+                        PostBackUrl="~/Default.aspx" style="height: 40px">Transportadora Eagles</asp:LinkButton>
+                    <br />
+                <div align="center" 
+                    
+                        
+                        style="width: 1032px; background-color: #3399FF; height: 28px; margin-top: 0px; margin-left: 0px;">
+                    &nbsp;<asp:LinkButton ID="LinkButton13" runat="server" Font-Bold="True" 
+                        Font-Size="Large" Font-Underline="True" ForeColor="White" CausesValidation="false">Ínicio</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="LinkButton14" runat="server" Font-Bold="True" 
+                        Font-Size="Large" Font-Underline="True" ForeColor="White" CausesValidation="false">Serviços</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="LinkButton15" runat="server" Font-Bold="True" 
+                        Font-Size="Large" Font-Underline="True" ForeColor="White" CausesValidation="false">Empresa</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="LinkButton18" runat="server" Font-Bold="True" 
+                        Font-Size="Large" Font-Underline="True" ForeColor="White" CausesValidation="false">Vantagens</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="LinkButton17" runat="server" Font-Bold="True" 
+                        Font-Size="Large" Font-Underline="True" ForeColor="White" CausesValidation="false">Contato</asp:LinkButton>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:LinkButton ID="LinkButton16" runat="server" Font-Bold="True" 
+                        Font-Size="Large" Font-Underline="True" ForeColor="White">Orçamento</asp:LinkButton>
+                    <br />
+                    
+                    <br />
+                </div>
+                </div>
+	</div>
+
+	<div id="meio">
+
+		<div id="miolo">
+			 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                 <p style="height: 18px; width: 1033px">
+                     <br />
+                 </p>
+        
+        </asp:ContentPlaceHolder>
+		</div>
+
+		<div style="clear: both;"></div>
+	</div>
+
+	<div id="rodape">
+		<div id="rodape_direita" align="left" 
+            style="background-color: #0099FF; font-family: 'Adobe Gothic Std B'; font-size: medium; color: #FFFFFF; text-align: left;">
+			<asp:Label ID="Label7" runat="server" 
+                Text="Transportadora Eagles ® Todos os Direitos Reservados"></asp:Label>
+            <br/>
+		
+		</div>
+	</div>
+        
+</div>
+
+    </form>
+</body>
+</html>
